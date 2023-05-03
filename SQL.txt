@@ -1,0 +1,57 @@
+user->
+
+INSERT INTO users (name, email, role, email_verified_at, password, two_factor_secret, two_factor_recovery_codes, two_factor_confirmed_at,
+current_team_id, profile_photo_path, created_at, updated_at) VALUES ('admin', 'admin@admin.com', 'admin', NULL,
+'$2y$10$Vu0S9fLpDDLzvYgj7pHtY.S/ND2pdYdbtOADvz1/FsQqJuMK2Ogaa', NULL, NULL, NULL, NULL, NULL, NOW(), NOW()), ('trishir', 'trishir@admin.com',
+'admin', NULL, '$2y$10$Vu0S9fLpDDLzvYgj7pHtY.S/ND2pdYdbtOADvz1/FsQqJuMK2Ogaa', NULL, NULL, NULL, NULL, NULL, NOW(), NOW()), ('user', 'user@user.com',
+'user', NULL, '$2y$10$IoY1kJmNNL62eFhJ/5WkF.8BqjNMs.ECfzyfxMxwHTf9o0D1CB3dO', NULL, NULL, NULL, NULL, NULL, NOW(), NOW()), ('Trishir', 'trish@user.com',
+'user', NULL, '$2y$10$bbCkJ2J16Cc0L0gd.xRtnuHPePiJfkUm/G.KVDRs8MK/rv71YnbAC', NULL, NULL, NULL, NULL, NULL, NOW(), NOW());
+
+
+
+
+
+books->
+
+INSERT INTO books (title, author, genre, language, publish, publisher, pages, price, image, status, created_at, updated_at) VALUES
+('To Kill a Mockingbird', 'Harper Lee', 'Classic', 'English', 1960, 'J. B. Lippincott & Co.', 281, 24.99, '1683040036.jpg', 1, NOW(), NOW()),
+('1984', 'George Orwell', 'Dystopian Science Fiction', 'English', 1949, 'Secker & Warburg', 328, 9.99, '1683040037.jpg', 1, NOW(), NOW()),
+('Animal Farm', 'George Orwell', 'Political Satire', 'English', 1945, 'Secker & Warburg', 112, 7.99, '1683040038.jpg', 1, NOW(), NOW()),
+('The Catcher in the Rye', 'J.D. Salinger', 'Coming-of-Age Fiction', 'English', 1951, 'Little, Brown and Company', 224, 11.99, '1683040039.jpg', 1, NOW(), NOW()),
+('Pride and Prejudice', 'Jane Austen', 'Romantic Comedy', 'English', 1813, 'T. Egerton, Whitehall', 279, 12.99, '1683040040.jpg', 1, NOW(), NOW()),
+('Sense and Sensibility', 'Jane Austen', 'Romance Novel', 'English', 1811, 'Thomas Egerton', 409, 10.99, '1683040041.jpg', 1, NOW(), NOW()),
+('Mansfield Park', 'Jane Austen', 'Novel of Manners', 'English', 1814, 'Thomas Egerton', 389, 12.99, '1683040042.jpg', 1, NOW(), NOW()),
+('Emma', 'Jane Austen', 'Novel of Manners', 'English', 1815, 'John Murray', 474, 11.99, '1683040043.jpg', 1, NOW(), NOW()),
+('Jane Eyre', 'Charlotte Bronte', 'Gothic Fiction', 'English', 1847, 'Smith, Elder & Co.', 594, 13.99, '1683040044.jpg', 1, NOW(), NOW()),
+('Wuthering Heights', 'Emily Bronte', 'Gothic Fiction', 'English', 1847, 'Thomas Cautley Newby', 294, 12.99, '1683040045.jpg', 1, NOW(), NOW()),
+('The Picture of Dorian Gray', 'Oscar Wilde', 'Philosophical Fiction', 'English', 1890, 'Lippincott''s Monthly Magazine', 214, 8.99, '1683040046.jpg', 1, NOW(), NOW()),
+('Lord of the Flies', 'William Golding', 'Allegorical Novel', 'English', 1954, 'Faber and Faber', 224, 10.99, '1683040047.jpg', 1, NOW(), NOW()),
+('Heart of Darkness', 'Joseph Conrad', 'Novella', 'English', 1899, 'Blackwood''s Magazine', 96, 6.99, '1683040048.jpg', 1, NOW(), NOW()),
+('The Great Gatsby', 'F. Scott Fitzgerald', 'Tragedy', 'English', 1925, 'Charles Scribner''s Sons', 180, 12.99, '1683040049.jpg', 1, NOW(), NOW()),
+('The Grapes of Wrath', 'John Steinbeck', 'Realistic Fiction', 'English', 1939, 'The Viking Press', 464, 14.99, '1683040050.jpg', 1, NOW(), NOW()),
+('One Hundred Years of Solitude', 'Gabriel García Márquez', 'Magical Realism', 'Spanish', 1967, 'Harper & Row', 417, 17.99, '1683040051.jpg', 1, NOW(), NOW()),
+('Love in the Time of Cholera', 'Gabriel García Márquez', 'Romantic Novel', 'Spanish', 1985, 'Oprah''s Book Club', 348, 15.99, '1683040052.jpg', 1, NOW(), NOW()),
+('Don Quixote', 'Miguel de Cervantes', 'Satire', 'Spanish', 1605, 'Francisco de Robles', 863, 15.99, '1683040053.jpg', 1, NOW(), NOW()),
+('The Stranger', 'Albert Camus', 'Philosophical Fiction', 'French', 1942, 'Gallimard', 123, 13.99, '1683040054.jpg', 1, NOW(), NOW()),
+('The Plague', 'Albert Camus', 'Existentialist novel', 'French', 1947, 'Gallimard', 308, 12.99, '1683040055.jpg', 1, NOW(), NOW()),
+('The Unbearable Lightness of Being', 'Milan Kundera', 'Philosophical Fiction', 'French', 1984, 'Éditions Gallimard', 314, 16.99, '1683040056.jpg', 1, NOW(), NOW()),
+('The Name of the Rose', 'Umberto Eco', 'Historical Mystery', 'Italian', 1980, 'Bompiani', 536, 20.99, '1683040057.jpg', 1, NOW(), NOW()),
+('Les Misérables', 'Victor Hugo', 'Historical novel', 'French', 1862, 'A. Lacroix, Verboeckhoven & Cie', 1900, 23.99, '1683040058.jpg', 1, NOW(), NOW()),
+('Siddhartha', 'Hermann Hesse', 'Spiritual Novel', 'German', 1922, 'S. Fischer Verlag', 152, 7.99, '1683040059.jpg', 1, NOW(), NOW()),
+('Steppenwolf', 'Hermann Hesse', 'Existentialist Fiction', 'German', 1927, 'S. Fischer Verlag', 237, 10.99, '1683040060.jpg', 1, NOW(), NOW()),
+('Narcissus and Goldmund', 'Hermann Hesse', 'Novel', 'German', 1930, 'S. Fischer Verlag', 345, 13.99, '1683040061.jpg', 1, NOW(), NOW()),
+('The Trial', 'Franz Kafka', 'Absurdist Fiction', 'German', 1925, 'Kurt Wolff Verlag', 315, 12.99, '1683040062.jpg', 1, NOW(), NOW()),
+('The Metamorphosis', 'Franz Kafka', 'Absurdist Fiction', 'German', 1915, 'Kurt Wolff Verlag', 56, 9.99, '1683040063.jpg', 1, NOW(), NOW()),
+('Fathers and Sons', 'Ivan Turgenev', 'Literary Fiction', 'Russian', 1862, 'D. Ivanov', 244, 11.99, '1683040064.jpg', 1, NOW(), NOW()),
+('Anna Karenina', 'Leo Tolstoy', 'Realistic Fiction', 'Russian', 1878, 'The Russian Messenger', 864, 19.99, '1683040065.jpg', 1, NOW(), NOW()),
+('War and Peace', 'Leo Tolstoy', 'Historical Fiction', 'Russian', 1869, 'The Russian Messenger', 1225, 22.99, '1683040066.jpg', 1, NOW(), NOW()),
+('Crime and Punishment', 'Fyodor Dostoevsky', 'Psychological Fiction', 'Russian', 1866, 'The Russian Messenger', 551, 15.99, '1683040067.jpg', 1, NOW(), NOW()),
+('The Brothers Karamazov', 'Fyodor Dostoevsky', 'Philosophical Fiction', 'Russian', 1880, 'The Russian Messenger', 824, 21.99, '1683040068.jpg', 1, NOW(), NOW()),
+('The Master and Margarita', 'Mikhail Bulgakov', 'Fantasy Novel', 'Russian', 1967, 'Moskva', 394, 13.99, '1683040069.jpg', 1, NOW(), NOW()),
+('Doctor Zhivago', 'Boris Pasternak', 'Historical Romance', 'Russian', 1957, 'Giangiacomo Feltrinelli Editore', 592, 14.99, '1683040070.jpg', 1, NOW(), NOW()),
+('Brave New World', 'Aldous Huxley', 'Dystopian Fiction', 'English', 1932, 'Chatto & Windus', 311, 8.99, '1683040071.jpg', 1, NOW(), NOW()),
+('The Sun Also Rises', 'Ernest Hemingway', 'Modernist Literature', 'English', 1926, 'Scribner''s', 251, 10.99, '1683040072.jpg', 1, NOW(), NOW()),
+('The Sound and the Fury', 'William Faulkner', 'Modernist Literature', 'English', 1929, 'Jonathan Cape & Harrison Smith', 326, 11.99, '1683040073.jpg', 1, NOW(), NOW()),
+('Beloved', 'Toni Morrison', 'Historical Fiction', 'English', 1987, 'Knopf', 321, 16.99, '1683040074.jpg', 1, NOW(), NOW()),
+('Invisible Man', 'Ralph Ellison', 'Existentialist Novel', 'English', 1952, 'Random House', 581, 18.99, '1683040075.jpg', 1, NOW(), NOW()),
+('Go Tell It on the Mountain', 'James Baldwin', 'Semi-autobiographical Novel', 'English', 1953, 'Knopf', 186, 14.99, '1683040076.jpg', 1, NOW(), NOW());
